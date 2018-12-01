@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #333;
+    color: #fff;
+}
+.navbar {
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.75;
+}
+#home-section {
+    background: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner {
+    padding-top: 130px;
+}
+#home-section .card {
+    opacity: 0.7;
+}
+#home-section .fas {
+    color: #008ed6;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+.zoom {
+    position: relative;
+    overflow: hidden;
+}
+.zoom:hover img {
+    transform: scale(1.7);
+}
+.zoom img {
+    transition: all 0.3s;
+}
+
+#explore-main-section .fas {
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+#create-main-section .fas {
+    background: #fff;
+    color: #008ed6;
+    padding: 5px;
+    border-radius: 5px;
+}
+#share-main-section .fas {
+    background: #333;
+    color: #28A745;
+    padding: 5px;
+    border-radius: 5px;
+}
+#team-section img {
+        margin-top: -50px;
+    }
+#team-section .card:hover {
+    background: #cccdce;
+
+}
+#question-section .card {
+    border: #444 solid 2px;
+}
+#question-section a {
+    color: #fff;
+    text-decoration: none;
+}
+#question-section .card-body,
+#question-section .card-header {
+    background: #333;
+    color: #fff;
+}
+
+.carousel-item {
+    height: 450px;
+}
+.carousel-image-1 {
+    background: url("../img/mountains.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.carousel-image-2 {
+    background: url("../img/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.carousel-image-3 {
+    background: url("../img/share-section1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#accordion3 a {
+    text-decoration: none;
+    color: #fff;
+}
+#accordion4 a {
+    text-decoration: none;
+    color: #fff;
+}
